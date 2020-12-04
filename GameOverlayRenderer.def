@@ -1,0 +1,16 @@
+LIBRARY GameOverlayRenderer.dll
+EXPORTS
+	BOverlayNeedsPresent=BOverlayNeedsPresent_wrapper @1
+	IsOverlayEnabled=IsOverlayEnabled_wrapper @2
+	NotifyVRCleanup=NotifyVRCleanup_wrapper @3
+	NotifyVRInit=NotifyVRInit_wrapper @4
+	OverlayHookD3D3=OverlayHookD3D3_wrapper @5
+	SetNotificationInset=SetNotificationInset_wrapper @6
+	SetNotificationPosition=SetNotificationPosition_wrapper @7
+	SteamOverlayIsUsingGamepad=SteamOverlayIsUsingGamepad_wrapper @8
+	SteamOverlayIsUsingKeyboard=SteamOverlayIsUsingKeyboard_wrapper @9
+	SteamOverlayIsUsingMouse=SteamOverlayIsUsingMouse_wrapper @10
+	ValveHookScreenshots=ValveHookScreenshots_wrapper @11
+	VirtualFreeWrapper=VirtualFreeWrapper_wrapper @12
+	VulkanSteamOverlayPresent=VulkanSteamOverlayPresent_wrapper @13
+	VulkanSteamOverlayProcessCapturedFrame=VulkanSteamOverlayProcessCapturedFrame_wrapper @14
